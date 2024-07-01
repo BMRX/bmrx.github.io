@@ -248,7 +248,7 @@ footer {
 }
 @font-face {
     font-family: 'SEELE-TWO';
-    src: url('/_includes/fonts/Seele-Two.otf');
+    src: url('../_includes/fonts/Seele-Two.otf');
 }
 @font-face {
     font-family: 'BETA-BOLD';
