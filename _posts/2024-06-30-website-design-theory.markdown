@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Website Design Theory"
-date:   2024-06-30 21:11:22 -0800
+date:   2024-06-30 12:11:22 -0800
 ---
 I have no idea what purpose this website will have; I just had a stroke of inspiration. That inspiration is Gundam. The fonts used, the UI, plus some fan-made technical manuals I've seen while browsing.
 
