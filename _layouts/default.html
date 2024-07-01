@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A site of nothing.">
+    <title>BMRX - {{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/main.css">
+  </head>
+  <body>
+    <header>
+        <div id="header_content">
+            <div id="site_name">BMRX</div><div id="site_title">{{ page.title }}</div>
+            
+        </div>
+        <div class="triangle header_triangle_l"></div><div class="triangle header_triangle_r"></div>
+    </header>
+    
+
+    <section>
+      {{ content }}
+    </section>
+    <footer>
+        <div class="triangle footer_triangle_r"></div><div class="triangle footer_triangle_l"></div>
+        <div class="footer_content">
+            <nav>
+                <a href="/">Home</a>
+                <a href="/blog/">Blog</a>
+            </nav>
+        </div>   
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
