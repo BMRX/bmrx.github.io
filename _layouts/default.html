@@ -6,8 +6,9 @@
     <meta name="description" content="A site of nothing.">
     <title>BMRX</title>
     <link rel="stylesheet" href="/assets/main.css">
+    {%- feed_meta -%}
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="/js/infinite-jekyll.js"></script>
+    <!-- <script src="/js/infinite-jekyll.js"></script> -->
   </head>
   <body>
     <div id="top">
@@ -16,7 +17,7 @@
     </div>
     <main>
       {{ content }}
-      <div class="infinite-spinner"></div>
+      <!-- <div class="infinite-spinner"></div> -->
     </main>
     <footer>
         <div class="triangle footer_triangle_r"></div><div class="triangle footer_triangle_l"></div>
@@ -24,6 +25,7 @@
             <nav>
                 <ul>
                     <li><a href="/">HOME</a></li>
+                    <li><a href="/blog/">BLOG</a></li>
                 </ul>
             </nav>
         </div>   
