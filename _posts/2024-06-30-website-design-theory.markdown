@@ -8,14 +8,11 @@ I have no idea what purpose this website will have; I just had a stroke of inspi
 This all came about from an odd happening: a new coworker is really into Gunpla. I mentioned how I always wanted to dive into it, then he brought in a resin kit for the Aerial from Witch of Mercury. Anyway, long story short, I ended up ordering tools and a Full Mechanics 1/100 Aerial for the resin kit. I still need more tools and supplies, but while browsing, this idea for a blog/personal site came to me. I plan to document my first-ever Gunpla build and other things here. Websites I host tend to die, so we'll see how this goes.
 
 So the idea is to make this like a technical manual with UI elements you might expect on a sci-fi application. Sorry if that sounds vague. Below, you'll find reference materials I've been using.
-{%<div class="seperator-top"></div>
-<img src="/img/witch-ui.png">
-
-<div class="seperator"></div>
-
-<div class="seperator"></div>
-
-<div class="seperator-bottom"></div>%}
+{%<div class="seperator-top"></div>%}
+{%<img src="/img/witch-ui.png">%}
+{%<div class="seperator"></div>%}
+{%<div class="seperator"></div>%}
+{%<div class="seperator-bottom"></div>%}
 So far the design is still very much up in the air. I am finding some of my old design obsessions coming through already though, and I can't say I don't like it. The fixed footer which I see as being the navigation, plus the fixed header, are concepts I've loved for my personal sites for what seems an age. What's new is the preference to more angular shapes - I always avoided them in the past, and now I'm falling in love with them. Plus the header shrinks! Though I'm not pleased with the animation, I'd rather it shrank at the same speed with the content scrolling by, I'll probably dive deep into finding a solution to that at a later date.
 
 If you haven't looked at the source yet, you'll note that so far everything here has been achieved through CSS alone. While this in it's self is not impressive, it's incredible to me how far CSS has come, these tringle shapes I have are simply borders with some transparancy slapped on them. I mean really, what's next?
