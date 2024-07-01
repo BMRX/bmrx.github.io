@@ -98,7 +98,6 @@ body {
 nav {
     font-weight: bold;
     font-family: 'BETA-BOLD';
-    padding: 1em 0;
 }
 nav ul {
     list-style: none;
@@ -108,11 +107,11 @@ nav ul {
     justify-content: center;
 }
 nav ul li {
-    margin: 0 15px;
+    margin: 10px 15px;
 }
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #cdc8c2;
 }
 main {
     height: calc(100vh - 115px);
@@ -129,7 +128,7 @@ main {
 }
 .post_border {
     border-style: solid;
-    border-width: 10px 10px 10px 10px;
+    border-width: 10px 5px 10px 5px;
     border-color: #33332f;
     z-index: 0;
 }
