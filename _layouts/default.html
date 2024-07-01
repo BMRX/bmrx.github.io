@@ -10,7 +10,7 @@
   <body>
     <div id="top">
         <div id="top_content">
-            <div id="site_name">BMRX</div><div id="site_title">{{ page.title }}</div>
+            <div id="site_name">BMRX</div>
             
         </div>
         <div class="triangle top_triangle_l"></div><div class="triangle top_triangle_r"></div>
@@ -34,7 +34,7 @@
         contentContainer.onscroll = function() {scrollFunction()};
 
         function scrollFunction() {
-            if (document.getElementsByTagName("main")[0].scrollTop > 50) {
+            if (contentContainer.scrollTop > 50) {
                 contentContainer.style.paddingTop = "65px";
                 document.getElementById("top_content").style.height = "50px";
                 document.getElementById("site_name").style.fontSize = "15px";
