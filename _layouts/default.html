@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,9 +17,9 @@
     </header>
     
 
-    <section>
+    <main>
       {{ content }}
-    </section>
+    </main>
     <footer>
         <div class="triangle footer_triangle_r"></div><div class="triangle footer_triangle_l"></div>
         <div class="footer_content">
