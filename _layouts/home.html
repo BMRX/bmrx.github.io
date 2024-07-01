@@ -1,28 +1,31 @@
 ---
 layout: default
 ---
-
-<div class="home">
+<div class="content_container">
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-<h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-<ul class="post-list">
-  {%- for post in site.posts -%}
-  <li>
-    {%- assign date_format = site.minima.date_format | default: "%d.%M.%Y" -%}
-    <span class="post-meta">{{ post.date | date: date_format }}</span>
-    <h3>
-      <a class="post-link" href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-      </a>
-    </h3>
-    {%- if site.show_excerpts -%}
-      {{ post.excerpt }}
-    {%- endif -%}
-  </li>
-  {%- endfor -%}
-</ul>
-{%- endif -%}
+ 
+  <div class="post_list_container">
+    {%- if site.posts.size > 0 -%}
+    <div class="post_list_label_text">ENTRIES</div>
+    <div class="post_list_wrapper">
+      <ul class="post_list">
+        {%- for post in site.posts limit: 4 -%}
+        <li>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            <div class="post_list_box post_list_col1">{{ post.post_count | escape }}</div>
+            <!-- <div class="post_list_box">{{ post.title | escape }}</div> -->
+            {%- assign date_format = site.minima.date_format | default: "%d.%m.%Y" -%}
+            <div class="post_list_box post_list_col2">{{ post.date | date: date_format }}</div>
+          </a>
 
+          <!-- {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+    {%- endif -%} -->
+        </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    {%- endif -%}
+  </div>
 </div>

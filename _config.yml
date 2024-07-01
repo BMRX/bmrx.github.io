@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Not much here, just my collection of unfinished stuff. Even this site is unfinished.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://bmrx.github.io # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /post/:title:output_ext
 github_username:  bmrx
 timezone: Canada/Pacific
 
@@ -112,7 +113,8 @@ jekyll-spaceship:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - minima-2.5.1
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

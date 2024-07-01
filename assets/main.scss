@@ -1,9 +1,12 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
 /*
     Dark gray: #33332f
     Tan: #cdc8c2
 */
   /* Firefox */
-* {
+  * {
     scrollbar-width: thin;
     scrollbar-color: rgba(0, 0, 0, 0.25) transparent;
 }
@@ -26,6 +29,12 @@
 *::-webkit-scrollbar-track-piece:start {
     background: transparent;
     margin-top: 115px;
+}
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
 }
 body {
     background:
@@ -222,7 +231,75 @@ main {
     position: relative;
     height: 60px;
 }
-
+.content_container {
+    width: 900px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post_list_container {
+    width: 370px;
+    min-width: 0;
+}
+.post_list_label_triangle {
+    display: inline-block;
+    border-width: 0 20px 20px 0;
+    border-color: transparent transparent #33332f transparent;
+    margin-right: 30px;
+}
+.post_list_label_text {
+    background-color: #33332f;
+    font-family: 'POST-DATE';
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #cdc8c2;
+    padding: 0px 0px 0px 5px;
+}
+.post_list_wrapper {
+    padding: 15px 20px;
+    border-style: solid;
+    border-width: 0px 3px 5px 3px;
+    border-color: #33332f;
+    background-color: #cdc8c2;
+}
+.post_list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 5px;
+    font-family: 'BETA-BOLD';
+    font-size: 0.75em;
+    text-transform: uppercase;
+    padding: 0;
+    min-width: 0;
+    list-style-type: none;
+}
+.post_list li {
+    display: inline-block;
+    margin: 0;
+}
+.post_list a {
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    color: #33332f;
+}
+.post_list_box {
+    background-color: #cdc8c2;
+    padding: 5px 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #33332f;
+}
+.post_list_col1 {
+    flex: 1 1 3em;
+    text-align: center;
+}
+.post_list_col2 {
+    flex: 2 2 5em;
+    text-align: center;
+}
 .seperator-top {
     box-sizing: border-box;
     height: 15px;
