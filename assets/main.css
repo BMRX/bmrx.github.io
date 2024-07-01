@@ -95,6 +95,11 @@ body {
     display:inline-block;
     width: 50%;
 }
+nav {
+    font-weight: bold;
+    font-family: 'BETA-BOLD';
+    padding: 1em 0;
+}
 nav ul {
     list-style: none;
     padding: 0;
