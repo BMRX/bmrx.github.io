@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "BLOG SITE INSPIRATION"
-count: "00001"
-date:   2024-06-30 12:11:22 -0800
+title: "BLOG SITE INSPIRATION"
+date: 2024-06-30 12:11:22 -0800
+post_count: "00001"
 ---
 I have no idea what purpose this website will have; I just had a stroke of inspiration. That inspiration is Gundam. The fonts used, the UI, plus some fan-made technical manuals I've seen while browsing. :slightly_smiling_face:
 
@@ -16,7 +16,7 @@ So the idea is to make this like a technical manual with UI elements you might e
 <div class="seperator"></div>
 <img src="/img/5192.jpg">
 <div class="seperator-bottom"></div>
-So far the design is still very much up in the air. I am finding some of my old design obsessions coming through already though, and I can't say I don't like it. The fixed footer which I see as being the navigation, plus the fixed header, are concepts I've loved for my personal sites for what seems an age. What's new is the preference to more angular shapes - I always avoided them in the past, and now I'm falling in love with them. Plus the header shrinks! Though I'm not pleased with the animation, I'd rather it shrank at the same speed with the content scrolling by, I'll probably dive deep into finding a solution to that at a later date.
+So far the design is still very much up in the air. I am finding some of my old design obsessions coming through already, and I can't say I don't like it. The fixed footer which I see as being the navigation, plus the fixed header, are concepts I've loved for my personal sites for what seems an age. What's new is the preference to more angular shapes - I always avoided them in the past, and now I'm falling in love with them. Plus the header shrinks! Though I'm not pleased with the animation, I'd rather it shrank at the same speed with the content scrolling by, I'll probably dive deep into finding a solution to that at a later date.
 
 If you haven't looked at the source yet, you'll note that so far everything here has been achieved through CSS alone. While this in it's self is not impressive, it's incredible to me how far CSS has come, these tringle shapes I have are simply borders with some transparancy slapped on them. I mean really, what's next?
 

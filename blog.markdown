@@ -1,6 +1,0 @@
----
-layout: page
-permalink: /blog/
----
-
-{%- include blog.html -%}
