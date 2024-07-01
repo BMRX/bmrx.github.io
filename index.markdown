@@ -4,3 +4,6 @@
 
 layout: home
 ---
+So then this would be custom content right? Like this is the homepage?
+
+Oh god this is neat but messy.
