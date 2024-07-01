@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Website Design Theory"
-date:   2024-06-30 21:11:22 -0700
+date:   2024-06-30 21:11:22 -0800
 ---
 I have no idea what purpose this website will have; I just had a stroke of inspiration. That inspiration is Gundam. The fonts used, the UI, plus some fan-made technical manuals I've seen while browsing.
 
@@ -9,11 +9,11 @@ This all came about from an odd happening: a new coworker is really into Gunpla.
 
 So the idea is to make this like a technical manual with UI elements you might expect on a sci-fi application. Sorry if that sounds vague. Below, you'll find reference materials I've been using.
 <div class="seperator-top"></div>
-<img src="../img/witch-ui.png" alt="Witch of Mercury UI">
+<img src="/img/witch-ui.png" alt="Witch of Mercury UI">
 <div class="seperator"></div>
-<img src="../img/5192.jpg" alt="Gundam Technical Manual">
+<img src="/img/5192.jpg" alt="Gundam Technical Manual">
 <div class="seperator"></div>
-<img src="../img/gundam-factory.jpg" alt="Gundam Factory Posters">
+<img src="/img/gundam-factory.jpg" alt="Gundam Factory Posters">
 <div class="seperator-bottom"></div>
 So far the design is still very much up in the air. I am finding some of my old design obsessions coming through already though, and I can't say I don't like it. The fixed footer which I see as being the navigation, plus the fixed header, are concepts I've loved for my personal sites for what seems an age. What's new is the preference to more angular shapes - I always avoided them in the past, and now I'm falling in love with them. Plus the header shrinks! Though I'm not pleased with the animation, I'd rather it shrank at the same speed with the content scrolling by, I'll probably dive deep into finding a solution to that at a later date.
 
