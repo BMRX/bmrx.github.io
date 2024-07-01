@@ -244,25 +244,25 @@ footer {
 }
 @font-face {
     font-family: 'SEELE-ONE';
-    src: url('../fonts/Seele-One.otf');
+    src: url('/_includes/fonts/Seele-One.otf');
 }
 @font-face {
     font-family: 'SEELE-TWO';
-    src: url('../fonts/Seele-Two.otf');
+    src: url('/_includes/fonts/Seele-Two.otf');
 }
 @font-face {
     font-family: 'BETA-BOLD';
-    src: url('../fonts/BetaCupsule-Bold.otf');
+    src: url('/_includes/fonts/BetaCupsule-Bold.otf');
 }
 @font-face {
     font-family: 'BETA-LIGHT';
-    src: url('../fonts/BetaCupsule-Light.otf');
+    src: url('/_includes/fonts/BetaCupsule-Light.otf');
 }
 @font-face {
     font-family: 'POST-TEXT';
-    src: url('../fonts/Exo-Regular.ttf');
+    src: url('/_includes/fonts/Exo-Regular.ttf');
 }
 @font-face {
     font-family: 'POST-DATE';
-    src: url('../fonts/Montserrat-Medium.ttf');
+    src: url('/_includes/fonts/Montserrat-Medium.ttf');
 }
