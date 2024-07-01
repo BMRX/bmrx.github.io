@@ -244,7 +244,7 @@ footer {
 }
 @font-face {
     font-family: 'SEELE-ONE';
-    src: url('/_includes/fonts/Seele-One.otf');
+    src: url('../fonts/Seele-One.otf');
 }
 @font-face {
     font-family: 'SEELE-TWO';
@@ -252,17 +252,17 @@ footer {
 }
 @font-face {
     font-family: 'BETA-BOLD';
-    src: url('/fonts/BetaCupsule-Bold.otf');
+    src: url('../fonts/BetaCupsule-Bold.otf');
 }
 @font-face {
     font-family: 'BETA-LIGHT';
-    src: url('/fonts/BetaCupsule-Light.otf');
+    src: url('../fonts/BetaCupsule-Light.otf');
 }
 @font-face {
     font-family: 'POST-TEXT';
-    src: url('/fonts/Exo-Regular.ttf');
+    src: url('../fonts/Exo-Regular.ttf');
 }
 @font-face {
     font-family: 'POST-DATE';
-    src: url('/fonts/Montserrat-Medium.ttf');
+    src: url('../fonts/Montserrat-Medium.ttf');
 }
