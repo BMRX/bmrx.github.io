@@ -29,6 +29,21 @@
             </nav>
         </div>   
     </footer>
-    <script src="./js/main.js"></script>
+    <script type="text/javascript">
+        var contentContainer = document.getElementsByTagName("main")[0];
+        contentContainer.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.getElementsByTagName("main")[0].scrollTop > 50) {
+                contentContainer.style.paddingTop = "65px";
+                document.getElementById("header_content").style.height = "50px";
+                document.getElementById("site_name").style.fontSize = "15px";
+            } else {
+                contentContainer.style.paddingTop = "115px";
+                document.getElementById("header_content").style.height = "100px";
+                document.getElementById("site_name").style.fontSize = "30px";
+            }
+        }
+    </script>
   </body>
 </html>
