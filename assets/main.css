@@ -167,10 +167,9 @@ main {
     bottom: 0;
     z-index: 2;
 }
-
 .post_content {
     color: #33332f;
-    padding: 0 75px;
+    padding: 0 60px;
 }
 .post_content p {
     font-family: 'POST-TEXT';
@@ -181,21 +180,47 @@ main {
 }
 .post_header {
     position: relative;
-    height: 55px;
+    height: 60px;
+    box-sizing: border-box;
     border-bottom: solid #33332f 2px;
 }
 .post_title {
     position: absolute;
+    font-family: 'BETA-BOLD';
+    font-size: 25px;
+    text-transform: uppercase;
+    bottom: 10px;
+}
+.post_count {
+    position: absolute;
+    font-family: 'BETA-BOLD';
+    font-size: 12px;
+    text-transform: uppercase;
+    bottom: 0;
 }
 .post_date {
     position: absolute;
-    font-family: 'POST-DATE';
-    font-weight: bold;
-    font-size: 30px;
-    color: #33332f;
     bottom: 0;
     right: 0;
-    border-bottom: solid #33332f 2px;
+}
+.post_date_triangle {
+    border-width: 30px 30px 0 0;
+    border-color: transparent #33332f transparent transparent;
+    margin-right: 30px;
+}
+.post_date_text {
+    background-color: #33332f;
+    font-family: 'POST-DATE';
+    font-weight: bold;
+    font-size: 25px;
+    color: #cdc8c2;
+    padding: 0px 5px 0px 0px;
+    margin-bottom: -2px;
+    margin-left: 30px;
+}
+.post_footer {
+    position: relative;
+    height: 60px;
 }
 
 .seperator-top {

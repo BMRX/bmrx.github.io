@@ -9,22 +9,30 @@ layout: default
     <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
       <div class="post_content">
-      <header class="post_header">
-        <div class="post_title p-name" itemprop="name headline">{{ page.title | escape }}</div>
-        <div class="post_date">
-          <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            {%- assign date_format = site.minima.date_format | default: "%d.%M.%Y" -%}
-            {{ page.date | date: date_format }}
-          </time>
+        <header class="post_header">
+          <div class="post_title p-name" itemprop="name headline">{{ page.title | escape }}</div>
+          <div class="post_count" itemprop="name headline">({ page.count })</div>
+          <div class="post_date">
+            <div class="triangle post_date_triangle"></div>
+            <div class="post_date_text">
+              <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {%- assign date_format = site.minima.date_format | default: "%d.%M.%Y" -%}
+                {{ page.date | date: date_format }}
+              </time>
+            </div>
+          </div>
+        </header>
+
+        <div class="e-content" itemprop="articleBody">
+          {{ content }}
         </div>
-      </header>
 
-      <div class="post-content e-content" itemprop="articleBody">
-        {{ content }}
+        <div class="post_footer">
+
+        </div>
+
+        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       </div>
-
-      <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-    </div>
     </article>
     <div class="triangle post_border_triangle_br1"></div>
     <div class="triangle post_border_triangle_br2"></div>
