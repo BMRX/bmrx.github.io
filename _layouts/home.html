@@ -18,10 +18,6 @@ layout: default
             {%- assign date_format = site.minima.date_format | default: "%d.%m.%Y" -%}
             <div class="post_list_box post_list_col2">{{ post.date | date: date_format }}</div>
           </a>
-
-          <!-- {%- if site.show_excerpts -%}
-      {{ post.excerpt }}
-    {%- endif -%} -->
         </li>
         {%- endfor -%}
       </ul>
